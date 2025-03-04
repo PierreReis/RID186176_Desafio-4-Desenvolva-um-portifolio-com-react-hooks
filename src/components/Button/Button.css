@@ -1,0 +1,10 @@
+.gradient-button {
+    background: linear-gradient(to right,#945DD6, #6978D1, #13ADC7 );
+    color: #FFFF;
+    font-size: 1.7rem;
+    width: 17rem;
+    height: 5rem;
+    border-radius: 5rem;
+    border: none;
+    cursor: pointer;
+}
