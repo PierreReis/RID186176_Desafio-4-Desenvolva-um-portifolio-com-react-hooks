@@ -34,8 +34,14 @@ h4 {
     h4 {
         font-size: 1.5rem;
     }
+
+    .networks {
+        flex-direction: column;
+    }
+
     .networks img {
         height: 2rem;
         width: 2rem;
+        margin: .5rem 0;
     }
 }
