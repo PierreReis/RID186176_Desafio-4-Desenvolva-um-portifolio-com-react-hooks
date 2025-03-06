@@ -19,7 +19,7 @@ ul {
 
 ul, li {
     list-style: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0;
     margin: 0 3rem;
 }
@@ -34,6 +34,11 @@ nav a:hover {
 
 .contacts {
     align-items: center;
+}
+
+.contacts img {
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .contacts a:first-child {

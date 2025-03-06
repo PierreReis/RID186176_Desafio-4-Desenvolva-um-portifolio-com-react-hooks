@@ -7,13 +7,14 @@ h1 {
 
 .presentation-container {
     flex-direction: column;
-    margin-left: 12rem;
+    margin-left: 8rem;
 }
 
 .presentation {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
     text-align: left;
-    width: 60%;
+    width: 50%;
     margin: 0 0 0 3rem;
 }
 
@@ -22,13 +23,13 @@ h1 {
 }
 
 .session-title {
-    margin: 5rem 0 5rem 12rem;
+    margin: 5rem 0 5rem 8rem;
 }
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(2, 34rem);
-    gap: 6rem 12rem;
+    grid-template-columns: repeat(2, 30rem);
+    gap: 6rem 10rem;
     justify-content: center;
     margin-bottom: 3rem;
     color: #FFFF;
@@ -36,19 +37,19 @@ h1 {
 
 .card {
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background: #0F1624;
     border-radius: 3rem 0 3rem 0;
     box-shadow: .05rem .05rem .6rem .05rem #FFFF;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .card p {
-    height: 15rem;
+    height: 12rem;
 }
 
 .banner img {
-    height: 19rem;
+    height: 16rem;
     width: 100%;
     border-radius: .5rem;
 }
@@ -56,6 +57,12 @@ h1 {
 .action {
     display: flex;
     align-items: center;
+}
+
+.action button {
+    width: 12.5rem;
+    height: 3.7rem;
+    font-size: 1.2rem;
 }
 
 .like {
@@ -74,7 +81,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #FFFF;
 }
@@ -121,7 +128,7 @@ h2 {
 }
 
 .info-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     text-align: center;
     margin: .5rem 1rem 0 1rem;
@@ -136,8 +143,8 @@ h2 {
 }
 
 .circle {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     background: #FFFF;
     border-radius: 100%;
 }
@@ -181,7 +188,7 @@ h2 {
 
 @media (max-width: 1440px) {
     .projects {
-        grid-template-columns: 34rem;
+        grid-template-columns: 30rem;
     }
 }
 
